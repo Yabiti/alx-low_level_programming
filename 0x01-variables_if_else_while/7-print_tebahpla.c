@@ -3,23 +3,21 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters
+ * Description: print a-z in reverse
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
+	char alpha = 'z';
 
-	char alpha = 'a';
-
-	while (alpha <= 'z')
+	while (alpha >= 'a')
 	{
-		putchar (alpha);
-		alpha++;
+		putchar(alpha);
+		alpha--;
 	}
 	putchar('\n');
 
 	return (0);
-
 }

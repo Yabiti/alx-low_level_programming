@@ -3,19 +3,24 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters
+ * Description: print numbers of base16 in lowercase
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-
 	char alpha = 'a';
+	char num = '0';
 
-	while (alpha <= 'z')
+	while (num <= '9')
 	{
-		putchar (alpha);
+		putchar(num);
+		num++;
+	}
+	while (alpha <= 'f')
+	{
+		putchar(alpha);
 		alpha++;
 	}
 	putchar('\n');

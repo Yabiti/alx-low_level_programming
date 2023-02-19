@@ -3,23 +3,22 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters
+ * Description: print all single digit numbers
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
+	char num = '0';
 
-	char alpha = 'a';
-
-	while (alpha <= 'z')
+	while (num <= '9')
 	{
-		putchar (alpha);
-		alpha++;
+		putchar(num);
+		num++;
 	}
 	putchar('\n');
 
 	return (0);
-
 }
+

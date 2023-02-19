@@ -1,22 +1,30 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include<stdio.h>
 
 /**
- * main - prints alphanin lower and upper case
- * Return: Always 0
- */
+ * main - Entry point
+ *
+ * Description: print all aplhabet letters
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int ch;
+	char alpha = 'a';
+	char alpha1 = 'A';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar (ch);
-
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar (ch);
-
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
+	while (alpha1 <= 'Z')
+	{
+		putchar(alpha1);
+		alpha1++;
+	}
 	putchar('\n');
+
 	return (0);
 }
+

@@ -5,7 +5,7 @@
 
 /**
  * main - prints the last digit of the number
- * Recover: Always 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -28,6 +28,6 @@ int main(void)
 	else
 	{
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, a);
-	}	
+	}
 	return (0);
 }

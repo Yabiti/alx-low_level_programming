@@ -2,19 +2,19 @@
 
 /**
  * main -  Entry
- * description: prints _putchar using prototype
  * Return: Always 0
  */
 int main(void)
 {
-	char *str = "_putchar;
-
-	while (*str)
-	{
-		_putchar(*str);
-		str++;
-	}
+	_putchar('-');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
+

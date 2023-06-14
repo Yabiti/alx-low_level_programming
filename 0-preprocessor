@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -E 4SCFILE -o c

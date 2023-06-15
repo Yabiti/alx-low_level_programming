@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*malloc_checked: a function to return normal proccess
+*malloc_checked - a function to return normal proccess
 *@b: number of bytes to allocate
 *Return: a pointer to the allocated memory
 */

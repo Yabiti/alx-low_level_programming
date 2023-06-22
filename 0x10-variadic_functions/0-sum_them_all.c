@@ -21,5 +21,5 @@ sum += va_arg(argc, int);
 }
 va_end(argc);
 
-return (sum); 
+return (sum);
 }

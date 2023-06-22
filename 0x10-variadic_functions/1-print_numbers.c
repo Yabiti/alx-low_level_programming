@@ -19,7 +19,7 @@ for (i = 0; i < n; i++)
 {
 {
 printf("%d", va_arg(argc, int));
-if (separator && i != n - 0)
+if (separator && i != n - 1)
 printf("%s", separator);
 
 }

@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-*add_nodeint_end - adds a node at the end pf linked lists
+*add_nodeint - adds a node at the end of linked list
 *@head:  pointer to the first element in the list
 *@n: data to insert in the new element
 *Return: pointer to the new node

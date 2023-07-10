@@ -31,5 +31,3 @@ free(buffer);
 close(0);
 return (w);
 }
- 
- 

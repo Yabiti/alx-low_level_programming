@@ -1,11 +1,4 @@
-#include "main.h"
-/**
-*create_file - Creates a file
-*@filename: A pointer to the name of the file to create
-*@text_context: Apointer to a string to write to the file
-*Return: if the function fails - -1.
-*Otherwise - 1.
-*/
+
 int create_file(const char *filename, char *text_content)
 {
 int fd, w, len = 0;

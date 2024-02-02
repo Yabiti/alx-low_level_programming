@@ -5,12 +5,15 @@
     width: 100%;
 }
 
-.navbar {
+.navbar ul li {
     display: flex;
     align-items: center;
+    padding: 20%;
+    position: relative;
+    display: inline-block;
 }
 
-.navbar ul > li {
+.navbar ul  li a{
     text-align: none;
     color: #fff;
 

@@ -7,10 +7,10 @@
     height: 100vh;
     width: 100%;
 }
-
 ul {
-    color: white;
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
+    text-align: right;
+    margin: 20px;
+    color: whitesmoke;
+    width: 70%;
+    position: relative;
 }

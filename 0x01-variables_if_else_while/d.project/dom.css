@@ -21,3 +21,7 @@
 navbar ul li:hover::after {
     width: 100%;
 }
+
+.navbar ul li:hover::after {
+    width: 100%;
+}

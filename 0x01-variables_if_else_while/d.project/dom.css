@@ -1,6 +1,17 @@
 .et {
-    text-align: center;
+    color: white;
     background-image:url(wallpaperflare.com_wallpaper.jpg);
     height: 100vh;
     width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul > li {
+    text-align: none;
+    color: #fff;
+
 }

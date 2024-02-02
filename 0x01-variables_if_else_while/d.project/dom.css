@@ -8,6 +8,9 @@
     width: 100%;
 }
 
-.navbar{
+ul {
     color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
 }

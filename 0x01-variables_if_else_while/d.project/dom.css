@@ -31,11 +31,6 @@
 
 }
 
-.content {
+navbar ul li:hover::after {
     width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50px);
-    text-align: center;
-    color:white;
 }

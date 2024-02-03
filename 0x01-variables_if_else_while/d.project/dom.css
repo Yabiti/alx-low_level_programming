@@ -9,8 +9,9 @@
     color: aliceblue;
     text-align: justify;
     padding-right: 20px;
+    padding: 20px;
     line-height: 1hv;
     display: flex;
     margin-left: 1000px;
-    word-spacing: 1%;
+    word-spacing: 10%;
 }

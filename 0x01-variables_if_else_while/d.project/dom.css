@@ -3,3 +3,9 @@
     width: 100%;
     background: url(wallpaperflare.com_wallpaper.jpg);
 }
+
+.banner > ul{
+    padding: 20px;
+    margin: auto;
+    
+}

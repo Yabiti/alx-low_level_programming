@@ -17,6 +17,7 @@
     display: inline-block;
     margin: 10px 30px;
     color: aliceblue;
+    position: relative;
 }
 
 .banner > ul > li::after{
@@ -29,4 +30,7 @@
     transform: translateX(-50%);
     background: aliceblue;
     transition: width 0.3s;
+}
+.banner ul > li:hover::after{
+    width: 50%;
 }

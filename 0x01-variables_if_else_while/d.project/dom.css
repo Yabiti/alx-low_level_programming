@@ -6,7 +6,10 @@
 
 .banner > ul{
     width: 100%;
-    display: flex;
+    color: aliceblue;
+    text-align: justify;
     padding: 20px;
-    
+    line-height: 1hv;
+    display: flex;
+    margin-left: 1000px;
 }

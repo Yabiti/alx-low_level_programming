@@ -8,8 +8,9 @@
     width: 100%;
     color: aliceblue;
     text-align: justify;
-    padding: 20px;
+    padding-right: 20px;
     line-height: 1hv;
     display: flex;
     margin-left: 1000px;
+    word-spacing: 1%;
 }

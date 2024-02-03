@@ -8,10 +8,9 @@
     width: 100%;
     color: aliceblue;
     text-align: justify;
+    display: inline-block;
     padding-right: 20px;
     padding: 20px;
     line-height: 1hv;
-    display: flex;
     margin-left: 1000px;
-    word-spacing: 10%;
 }

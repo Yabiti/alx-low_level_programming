@@ -34,3 +34,6 @@
 .banner ul > li:hover::after{
     width: 50%;
 }
+#login form {
+    display: inline-block;
+}

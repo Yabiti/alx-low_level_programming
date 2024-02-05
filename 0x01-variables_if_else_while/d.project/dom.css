@@ -104,4 +104,9 @@
     width: 85%;
     padding: 10px 30px;
     cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #F3C693;
+    border: 0;
+    outline: none;
 }

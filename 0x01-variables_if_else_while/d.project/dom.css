@@ -74,3 +74,10 @@
     border-radius: 30px;
     transition: .5s;
 }
+
+.inputlogin {
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}

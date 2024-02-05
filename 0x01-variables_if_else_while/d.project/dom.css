@@ -81,3 +81,9 @@
     width: 280px;
     transition: .5s;
 }
+.input form {
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}

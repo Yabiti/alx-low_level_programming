@@ -87,3 +87,7 @@
     width: 280px;
     transition: .5s;
 }
+
+.input field {
+    width: 100%;
+}

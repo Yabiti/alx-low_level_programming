@@ -48,3 +48,9 @@
     padding: 10px;
     overflow: hidden;
 }
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+}

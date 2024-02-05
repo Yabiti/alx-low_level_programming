@@ -122,3 +122,7 @@ span {
     bottom: 68px;
     position: absolute;
 }
+
+#login {
+    left: 50px;
+}

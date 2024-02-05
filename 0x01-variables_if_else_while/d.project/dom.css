@@ -38,5 +38,17 @@
     display: inline-block;
 }
 .form-box {
-    width: 500px;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    margin: 2% auto;
+    background:rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 250px;
+    margin: 35px auto;
+    position: relative;
 }

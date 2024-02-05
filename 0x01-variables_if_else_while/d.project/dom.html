@@ -7,10 +7,26 @@
     <body>
         <div class="banner">
             <ul>
+                <li>Book A Flight</li>
                 <li>Check-In</li>
                 <li>Log-In</li>
-                <li>Menu</li>
             </ul>
+        </div>
+        <div id="logo">
+            <div class="form-box">
+                <div class="button">
+                    <div id="btn">
+                        <button type="buttton"onclick='login()' class="toggloe-btn">Log In</button>
+                        <button type="button"onclick='register()' class="toggloe-btn">Register</button>
+                    </div>
+                    <form id="login" class="input">
+                        <input type="text" class="input Field" placeholder="Email Id" required>
+                        <input type="password" class="input Field" placeholder="Enter password" required>
+                        <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                        <button type="submit" class="submit-btn">Log-In</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </body>
 </html>

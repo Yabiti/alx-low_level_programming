@@ -37,3 +37,6 @@
 #login form {
     display: inline-block;
 }
+.form-box {
+    width: 500px;
+}

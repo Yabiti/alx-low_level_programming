@@ -126,3 +126,7 @@ span {
 #login {
     left: 50px;
 }
+
+#login input {
+    color: #777;
+}

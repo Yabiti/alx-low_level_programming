@@ -42,7 +42,7 @@
     height: 450px;
     position: relative;
     margin: 2% auto;
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.3s);
     padding: 10px;
     overflow: hidden;
 }
@@ -51,4 +51,11 @@
     width: 250px;
     margin: 35px auto;
     position: relative;
+    box-shadow:  0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
 }

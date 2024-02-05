@@ -69,4 +69,16 @@
     position:absolute;
     width: 110px;
     height: 100%;
+    background: #F3c693;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+label {
+    color: wheat;
+}
+
+.input  {
+    width: 100%;
+    padding: 10px 0;
 }

@@ -166,3 +166,10 @@ p{
         transform: rotate(359deg);
     }
 }
+
+.loader {
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

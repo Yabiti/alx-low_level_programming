@@ -14,3 +14,8 @@ let total_duration = document.querySelector('.total_duration');
 let wave = document.querySelector('wave');
 let radomIcon = document.querySelector('.fa_random');
 let curr_track = document.querySelector('current_track');
+
+let track_index = 0;
+let isplaying = false;
+let isRandom = false;
+let updateTime;

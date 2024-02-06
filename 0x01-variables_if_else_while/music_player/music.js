@@ -6,3 +6,11 @@ let track_artist = document.querySelector('.track_artist');
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
 let prev_btn = document.querySelector('.prev-track');
+
+let seek_slider = document.querySelector('.seek_slider');
+let volume_slider = document.querySelector('.volume_slider');
+let curr_time = document.querySelector('.current_time');
+let total_duration = document.querySelector('.total_duration');
+let wave = document.querySelector('wave');
+let radomIcon = document.querySelector('.fa_random');
+let curr_track = document.querySelector('current_track');

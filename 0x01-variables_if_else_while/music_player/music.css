@@ -117,3 +117,12 @@ body {
     cursor: grab;
     border-radius: 100%;
 }
+
+.seek_slider:hover,
+.volume_slider:hover{
+    opacity: 1.0;
+}
+
+.seek_slider {
+    width: 60%;
+}

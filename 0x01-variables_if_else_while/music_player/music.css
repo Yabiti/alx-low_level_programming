@@ -135,3 +135,8 @@ body {
 .total-duration {
     padding: 10px;
 }
+
+i.fa-volume-down,
+i.fa-volume-up{
+    padding: 10px;
+}

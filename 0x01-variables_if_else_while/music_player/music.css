@@ -182,3 +182,19 @@ p{
     margin: 0 5px;
     animation: animate 1.4s linear infinite;
 }
+
+@keyframes animate {
+    50% {
+        height: 20%;
+        background: #4286f4;
+
+    }
+    100% {
+        background: #4286f4;
+        height: 100%;
+    }
+}
+
+.stroke:nth-child(1) {
+    animation-delay: 0s;
+}

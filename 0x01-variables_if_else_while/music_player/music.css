@@ -9,3 +9,9 @@ body {
     font-weight: bold;
     background-color: gray;
 }
+
+.player{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}

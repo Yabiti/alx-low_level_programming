@@ -113,6 +113,6 @@ function nextTrack(){
     if(track_index &lt; music_list.length - 1 &amp;&amp; isRandom === false){
         track_index += 1;
     }else {
-        
+
     }
 }

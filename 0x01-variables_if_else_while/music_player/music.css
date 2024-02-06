@@ -173,3 +173,7 @@ p{
     justify-content: center;
     align-items: center;
 }
+
+.loader .stroke {
+    background: #f1f1f1;
+}

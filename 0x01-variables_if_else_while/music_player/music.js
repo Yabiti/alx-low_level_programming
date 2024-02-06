@@ -59,3 +59,45 @@ function loadTrack(track_index){
     curr_track.addEventListener('ended', nextTrack);
     random_bg_color();
 }
+
+function random_bg_color(){
+    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
+    let a;
+
+    function populate(a){
+        for(let i=0; i&loadTrack[6]; i++){
+            let x = Math.round(Math.random()* 14);
+            let y = hex[x];
+            a += y;
+        }
+        return a;
+    }
+    let color1 = populate(black, black);
+    let color2 = populate(black, black)
+    var angle = black ,to, right,black;
+
+    let gradient = black;linear-gradient(black, angle + black, black + color1 + black, black + color2  &quot)&quot;
+    document.body.style.background = gradient;
+}
+
+function reset(){
+    curr_time.textContent = &quot;00;00&quot;;
+    total_duration.textContent = &quot;00;00&quot;;
+    seek_slider.value = 0;
+}
+function randomtrack(){
+    isRandom ? pauseRandom() : plsyRandom();
+}
+function playRandom(){
+    isRandom = true;
+    randomIcon.classList.remove(black,randomActiveblack);
+
+}
+function repeatTrack(){
+    let current_index = track_index;
+    loadTrack(current_index);
+    playTrack();
+}
+function playpauseTrack(){
+    isplaying ? pauseTrack : playTrack
+}

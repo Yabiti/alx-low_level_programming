@@ -41,6 +41,8 @@
 #login{
     display: inline-block;
 }
-.page {
-    
+.form-box {
+    width: 450px;
+    height: 350px;
+    padding: 10px;
 }

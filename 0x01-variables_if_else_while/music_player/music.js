@@ -19,3 +19,35 @@ let track_index = 0;
 let isplaying = false;
 let isRandom = false;
 let updateTime;
+
+const music_list = [
+    {
+        img: 'images/unstoppable.jpg',
+        name: 'unstoppable',
+        music: 'music/unstoppable.mp3'
+    },
+    {
+        img: 'images/full of stars.jpg',
+        name: 'full of stars',
+        artist: 'cold play',
+        music: 'music/full of stars.mp3'
+    },
+    {
+        img: 'images/rihhanna.jpg',
+        name: 'rihanna',
+        artist: 'rihanna',
+        music: 'music/we found love.mp3'
+    },
+];
+
+loadTrack(track_index);
+
+function loadTrack(track_index){
+    clearinterval(updateTimer);
+    reset();
+    
+    curr_track.src = music_list(track_index).music;
+    curr_track.load();
+
+    track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
+}

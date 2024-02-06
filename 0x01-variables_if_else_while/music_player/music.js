@@ -101,3 +101,18 @@ function repeatTrack(){
 function playpauseTrack(){
     isplaying ? pauseTrack : playTrack
 }
+function pauseTrack(){
+    curr_track.pause();
+    isplaying = false;
+    track_art.classList.remove('rotate');
+    wavw.classList.remove('loader');
+    playpause_btn.innerHTML = '<i class="fa fs-plsy-circle fa-5x"></i>';
+
+}
+function nextTrack(){
+    if(track_index &lt; music_list.length - 1 &amp;&amp; isRandom === false){
+        track_index += 1;
+    }else {
+        
+    }
+}

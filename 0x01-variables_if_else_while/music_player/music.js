@@ -1,4 +1,4 @@
-let now_paying = document.querySelector('.now_playing');
+let now_playing = document.querySelector('.now_playing');
 let track_art = document.querySelector('.track_art');
 let track_name = document.querySelector('.track_name');
 let track_artist = document.querySelector('.track_artist');
@@ -50,4 +50,12 @@ function loadTrack(track_index){
     curr_track.load();
 
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
+    track_name.textContent = music_list[track_index].name;
+    track_artist.textContent = music_list[track_index].artist;
+    now_playing.textContent = "playing music " + [track_index + 1] + " of " + music_list.length;
+
+    updateTimer = setInterval(setUpdate, 1000);
+
+    curr_track.addEventListener('ended', nextTrack);
+    random_bg_color();
 }

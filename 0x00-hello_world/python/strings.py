@@ -3,4 +3,7 @@ def main():
     print(name)
 
     hello()
+
+def hello():
+    print("hello, " name)
 main()

@@ -1,8 +1,7 @@
-# ASk a user for their name
+x = float(input("whats' x?" ))
 
-name = input("what's your name? ").strip().title()
+y = float(input("what's y? "))
 
-first , last = name.split()
+z = x/y
 
-# getting user's name
-print(f'Hello, {first}')
+print(f"{z:.2f}")

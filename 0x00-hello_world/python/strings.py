@@ -7,4 +7,4 @@ if score >= 80 and score < 90:
 if score >= 70 and score < 80:
     print("Grade: C")
 if score >= 60 and score < 70:
-    
+    print("Grade: D")

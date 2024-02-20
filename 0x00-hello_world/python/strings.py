@@ -1,5 +1,4 @@
-def hello(to):
-    print("hello,", to)
-
-name = input("what's your name? ")
-hello(name)
+#!/usr/bin/python3
+import random
+number = random.randint(-10, 10)
+# YOUR CODE HERE

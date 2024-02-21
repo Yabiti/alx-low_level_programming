@@ -1,1 +1,2 @@
-print("meow\n" * 3, end="")
+while True:
+    n = input("what's n? ")

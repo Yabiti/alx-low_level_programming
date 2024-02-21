@@ -6,3 +6,7 @@ def get_number():
         n = int(input("who's she? "))
         if n > 1:
             return n
+        
+def my_love(n):
+    for _ in range(n):
+        print(my_love)

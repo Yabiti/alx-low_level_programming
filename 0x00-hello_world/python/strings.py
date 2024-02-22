@@ -10,3 +10,6 @@ def get_int():
             print("x is not an integer")
         else:
             break
+    return x
+
+main()

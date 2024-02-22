@@ -1,3 +1,4 @@
 try:
     x = int(input("what's x? "))
-except
+except ValueError:
+    print("x is not an integer")

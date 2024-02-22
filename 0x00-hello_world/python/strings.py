@@ -1,8 +1,1 @@
-students = {
-    "hermione", "gryffindor",
-    "harry", "gryffindor",
-    "draco", "slytherin",
-}
-
-for student in students:
-    print(student, students[student], sep=', ')
+fruits = ["banana", 'tomato', 'ginger', 'hellas', 'banana']

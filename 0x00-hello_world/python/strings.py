@@ -1,14 +1,12 @@
-def main():
-    x = get_int("What's x? ")
-    print(f"x is {x}")
+def func():
+
+    raise ConnectionError
 
 
-def get_int(prompt):
-    while True:
-        try:
-            return int(input(prompt))
-        except ValueError:
-            pass
+try:
 
+    func()
 
-main()
+except ConnectionError as exc:
+
+    raise RuntimeError('Failed to open database') from exc

@@ -1,12 +1,3 @@
-def func():
+from sys import mode
 
-    raise ConnectionError
-
-
-try:
-
-    func()
-
-except ConnectionError as exc:
-
-    raise RuntimeError('Failed to open database') from exc
+mode(["red", "blue", "red"])

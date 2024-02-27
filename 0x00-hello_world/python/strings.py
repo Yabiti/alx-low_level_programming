@@ -6,3 +6,5 @@ def get_int():
     while True:
         try:
             x = int(print("what's x? "))
+        except ValueError:
+            print("x is not an integer")

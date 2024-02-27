@@ -8,6 +8,8 @@ def get_int():
             x = int(input("what's x? "))
         except ValueError:
             print("x is not an integer")
+        else:
+            break
         return x
     
 main()

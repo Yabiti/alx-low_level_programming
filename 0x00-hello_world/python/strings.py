@@ -6,3 +6,5 @@ for i in range(3):
         f()
     except Exception as e:
         e.add_note(f"happened in iteration {i + 1}")
+    excs.append(e)
+    raise Exception("we have some problems", excs)

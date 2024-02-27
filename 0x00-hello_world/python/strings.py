@@ -1,1 +1,1 @@
-raise NameError('hi there')
+raise TypeError('hallo')

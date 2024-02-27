@@ -4,3 +4,4 @@ from itertools import filterfalse
 
 data = [20.7, float('nan'), 19.2, 18.3]
 print(sorted(data))
+print(median(data))

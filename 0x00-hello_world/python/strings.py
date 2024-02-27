@@ -1,1 +1,4 @@
-raise TypeError('hallo')
+def func():
+    raise ConnectionError
+
+try:

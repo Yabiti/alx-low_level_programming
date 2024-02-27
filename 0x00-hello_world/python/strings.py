@@ -1,2 +1,2 @@
 from statistics import median
-from math import
+from math import isnan

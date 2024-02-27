@@ -4,4 +4,4 @@ def func():
 try:
     func()
 except ConnectionError as exc:
-    raise
+    raise RuntimeError("failed to open") from exc

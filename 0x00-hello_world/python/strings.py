@@ -1,1 +1,1 @@
-from statistics
+from statistics import median

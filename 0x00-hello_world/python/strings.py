@@ -4,4 +4,5 @@ def main():
 
 def get_int():
     while True:
-        
+        try:
+            x = int(print("what's x? "))

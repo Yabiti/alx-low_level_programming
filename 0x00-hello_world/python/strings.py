@@ -1,3 +1,1 @@
-from statistics import median
-from math import isnan
-from itertools import filterfalse
+round(geometric_mean([54,20,20], 1))

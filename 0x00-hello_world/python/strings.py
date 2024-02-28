@@ -1,5 +1,4 @@
 from decimal import Decimal as D
-from statistics import pvariance
+from statistics import variance
 
-pvariance([D('35.5'), D('35.6')])
-print(D)
+variance([D('35.5'), D('35.6')])

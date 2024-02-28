@@ -1,4 +1,2 @@
-from statistics import median_low
-
-median_low([3,5,6])
-print(median_low)
+data = [0.25, 0.35, 0.36]
+pvariance(data)

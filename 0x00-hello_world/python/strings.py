@@ -1,6 +1,4 @@
 import sys
 
-try:
-    print("do you have some explanations", sys.argv[1])
-except IndexError:
+if len(sys.argv) < 2:
     print("Too few arguments")

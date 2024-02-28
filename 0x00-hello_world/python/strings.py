@@ -1,4 +1,2 @@
-from decimal import Decimal as D
-from statistics import variance
-
-variance([D('35.5'), D('35.6')])
+x = [1,2,3,4,5]
+y = [1,3,1,3,1]

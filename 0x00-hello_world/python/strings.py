@@ -1,4 +1,4 @@
-from statistics import harmonic_mean
+from statistics import median_low
 
-harmonic_mean([40, 60])
-weights = [5, 30]
+median_low([3,5,6])
+print(median_low)

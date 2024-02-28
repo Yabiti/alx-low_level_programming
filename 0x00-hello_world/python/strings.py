@@ -1,8 +1,5 @@
-import requests
 import sys
 
-if len(sys.argv) !=2:
-    sys.exit()
-
-response = requests.get("https// --------------------" + sys.argv[1])
-print(response.json())
+from saying import goodbye
+if len(sys.argv) == 2:
+    goodbye(sys.argv[1])

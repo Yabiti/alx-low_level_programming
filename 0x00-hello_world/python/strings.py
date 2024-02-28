@@ -1,1 +1,3 @@
-round(geometric_mean([54,20,20], 1))
+from statistics import harmonic_mean
+
+harmonic_mean([40, 60])

@@ -1,5 +1,4 @@
-from statistics import covariance
-x = [1,2,3,4,5]
-y = [1,3,1,3,1]
+import sys
 
-covariance(x,y)
+try:
+    print("hello my name is", sys.argv[1])

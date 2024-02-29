@@ -3,5 +3,5 @@ import csv
 students = []
 with open("students.csv") as file:
     reader = csv.DictReader(file)
-    for file in reader:
-        students.append
+    for row in reader:
+        students.append({"name": row['name'], "home": row['home']})

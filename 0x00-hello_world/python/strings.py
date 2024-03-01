@@ -1,4 +1,4 @@
 import csv
 
 students = []
-with open("students.csv")
+with open("stude

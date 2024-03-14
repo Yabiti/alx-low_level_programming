@@ -1,6 +1,6 @@
-email = input("what's our email ")
+email = input("what's our email ").strip()
 
-if "@" in email:
+if "@" in email and "." in email:
     print("valid")
 else:
     print("invalid")

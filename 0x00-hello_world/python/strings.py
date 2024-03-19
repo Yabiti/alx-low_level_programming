@@ -3,4 +3,3 @@ def f(*args, **kwargs):
 
 
 f(galleons=100, sickles=50, knuts=25)
-

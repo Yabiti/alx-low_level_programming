@@ -1,8 +1,6 @@
-email = input("what's our email ").strip()
+def f(*args, **kwargs):
+    print("Named:", kwargs)
 
-username , domain = email.split("@")
 
-if username and domain.endswith(".edu"):
-    print("valid")
-else:
-    print("invalid")
+f(galleons=100, sickles=50, knuts=25)
+

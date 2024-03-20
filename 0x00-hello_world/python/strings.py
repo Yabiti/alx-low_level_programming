@@ -5,4 +5,4 @@ name = input("what's your name? ").strip().title()
 first, last = name.split(" ")
 
 # say hello to the user
-print(f"Hello, {first}")
+print(f"Hello, {last}")

@@ -2,6 +2,7 @@
 
 name = input("what's your name? ").strip().title()
 
+# tsking user's first and last name
 first, last = name.split(" ")
 
 # say hello to the user

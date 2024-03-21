@@ -1,3 +1,3 @@
 
 user = input('type ')
-print(user)
+print(user, end="...")

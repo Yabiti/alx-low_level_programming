@@ -1,7 +1,9 @@
-def hello(to="world"):
-    print("hello,", to)
+def main():
+    x = int(input("what's x? "))
+    print("x squared is ", square(x))
 
 
-hello()
-name = input("what's your name? ").strip().title()
-hello(name)
+def square(n):
+    return n * n
+
+main()

@@ -3,5 +3,5 @@ def hello(to="world"):
 
 
 hello()
-name = input("what's your name? ")
+name = input("what's your name? ").strip().title()
 hello(name)

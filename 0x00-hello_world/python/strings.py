@@ -1,3 +1,3 @@
-value = input('this/is/cs50')
-value.hex('-')
-print(value)
+
+user = input('type ')
+print(user)

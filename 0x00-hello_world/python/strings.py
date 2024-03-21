@@ -1,3 +1,4 @@
+user = input("type ")
 
-user = input('type ')
-print(user, end="...")
+user = user.replace(" ", "...")
+print(user)

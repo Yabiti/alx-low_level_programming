@@ -1,4 +1,4 @@
-txt = "   banana   "
+txt = " i love banana"
 
-x = txt.strip()
-print("for all vegetables", x , " is my favorite")
+x = txt.replace("banana", "apple")
+print(x)

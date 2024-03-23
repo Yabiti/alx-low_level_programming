@@ -1,4 +1,4 @@
 txt = "this is not the end"
 
-x = txt.replace(" ", "...")
+x = txt.swapcase()
 print(x)

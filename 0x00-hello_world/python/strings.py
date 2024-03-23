@@ -1,4 +1,4 @@
-str = "xyz\t123\t456"
+str = "hello fake"
 
-x = str.expandtabs(2)
+x = str.find("fake")
 print(x)

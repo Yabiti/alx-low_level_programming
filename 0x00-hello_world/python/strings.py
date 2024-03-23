@@ -1,4 +1,4 @@
-txt = " i love banana"
+txt = "this is not the end"
 
-x = txt.replace("banana", "apple")
+x = txt.replace(" ", "...")
 print(x)

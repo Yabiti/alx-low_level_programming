@@ -1,4 +1,4 @@
-sentence = " save the last dance "
+sentence = "the last dance"
 
-x = sentence.center(50, "@")
+x = sentence.endswith("dance")
 print(x)

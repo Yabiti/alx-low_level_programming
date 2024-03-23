@@ -1,4 +1,4 @@
-sentence = "the last dance"
+str = "xyz\t123\t456"
 
-x = sentence.endswith("dance")
+x = str.expandtabs(2)
 print(x)

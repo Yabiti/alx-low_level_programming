@@ -1,4 +1,4 @@
-txt = "this is not the end"
+txt = "50"
 
-x = txt.swapcase()
+x = txt.zfill(10)
 print(x)

@@ -1,7 +1,4 @@
-a = "myman"
-b = "for_mynigga"
-c = "let it go"
+txt = "   banana   "
 
-print(a. isidentifier())
-print(b.isidentifier())
-print(c. isidentifier())
+x = txt.strip()
+print("for all vegetables", x , " is my favorite")

@@ -1,3 +1,4 @@
-user = input("type ")
+sentence = " save the last dance "
 
-user = user.replace(" ", "...")
+x = sentence.center(50, "@")
+print(x)
